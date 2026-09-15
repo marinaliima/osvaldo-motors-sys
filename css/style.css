@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/img/banner.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: #050505;
+}
+
+.logo-menu {
+    width: 170px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff6900;
+}
+
+nav .ativo {
+    color: #ff6900;
+    border-bottom: 3px solid #ff6900;
+    padding-bottom: 10px;
+}
+
+nav span {
+    color: #ff6900;
+}
+
+main {
+    min-height: calc(100vh - 70px);
+}
+
+#inicio {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    padding: 40px 8%;
+}
+
+#texto {
+    width: 50%;
+    padding-right: 50px;
+}
+
+#texto h1 {
+    font-size: 65px;
+    line-height: 0.9;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#texto h1 strong {
+    color: #ff6900;
+}
+
+#texto h1::before {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    background-color: #ff6900;
+    margin-bottom: 25px;
+}
+
+#texto p {
+    max-width: 600px;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #eeeeee;
+}
+
+#logo-principal {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo-principal img {
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+}
