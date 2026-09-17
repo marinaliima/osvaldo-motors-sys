@@ -121,6 +121,7 @@ hr {
 }
 
 #carros-recentes h2 {
+    margin-top: 30px;
     font-size: 30px;
 }
 
@@ -133,19 +134,35 @@ hr {
     width: 100%;
 }
 
-.carro {
-    width: 31%;
-    border-style: double;
+table {
+    width: 100%;
 }
 
-.carro img {
+td {
+    width: 33%;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+}
+
+.imagem {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+td img {
     width: 100%;
     max-width: 500px;
 }
 
+.preco {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 105, 0, 0.5);
+}
+
 #ver-mais {
     text-align: center;
-    background-color: rgba(255, 105, 0, 0.5);
+    background-color: rgba(255, 105, 0);
     padding: 10px;
     margin-top: 20px;
     border-style: double;
